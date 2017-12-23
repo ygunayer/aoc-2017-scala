@@ -1,0 +1,10 @@
+.settings/
+bin/
+project/**
+target/
+.cache-main
+.classpath
+.project
+.cache-tests
+!project/plugins.sbt
+.idea/
