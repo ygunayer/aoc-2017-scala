@@ -70,8 +70,6 @@ object Solution03 {
 }
 
 abstract class Solution03 extends Solution(3) {
-
-  override lazy val input: String = "277678"
   implicit val strategy: Solution03.ValueGenerationStrategy
 
   def makeSpiral(implicit strategy: Solution03.ValueGenerationStrategy): Iterator[Solution03.TravelIterator] = {

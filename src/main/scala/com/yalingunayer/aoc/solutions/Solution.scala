@@ -9,7 +9,7 @@ object Solution {
 abstract class Solution(val dayNumber: Int) {
   lazy val input = Utils.InputUtils.loadFile(f"/day${dayNumber}%02d.input")
 
-  def solve: String = solveFor(input)
+  def solve: String = solveAsStringFor(input)
   def solveFor(input: String): Int
   def solveAsStringFor(input: String): String = solveFor(input).toString
 
